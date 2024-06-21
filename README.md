@@ -20,15 +20,30 @@
 ## 설치 방법
 
 1. 저장소를 클론합니다:
+
+```
    git clone https://github.com/dq-hustlecoding/legal-document-chatbot.git
    cd legal-document-chatbot
+```
+
 2. 가상 환경을 생성하고 활성화합니다:
+
+```
    python -m venv venv
    source venv/bin/activate # On Windows use venv\Scripts\activate
+```
+
 3. 필요한 패키지를 설치합니다:
+
+```
    pip install streamlit google-generativeai python-dotenv PyPDF2
+```
+
 4. `.env` 파일을 생성하고 Google API 키를 추가합니다:
+
+```
    GOOGLE_API_KEY=your_actual_api_key_here
+```
 
 ## 사용 방법
 
